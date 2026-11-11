@@ -1,0 +1,243 @@
+.agents/skills/firebase-ai-logic-basics/references/flutter_setup.md:80: trailing whitespace.
+[32m+[m[41m  [m
+.agents/skills/firebase-ai-logic-basics/references/ios_setup.md:37: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-ai-logic-basics/references/ios_setup.md:41: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-ai-logic-basics/references/ios_setup.md:46: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-ai-logic-basics/references/ios_setup.md:59: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-ai-logic-basics/references/ios_setup.md:63: trailing whitespace.
+[32m+[m[41m            [m
+.agents/skills/firebase-ai-logic-basics/references/ios_setup.md:68: trailing whitespace.
+[32m+[m[41m            [m
+.agents/skills/firebase-ai-logic-basics/references/usage_patterns_android.md:91: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-ai-logic-basics/references/usage_patterns_web.md:63: trailing whitespace.
+[32m+[m[41m  [m
+.agents/skills/firebase-app-hosting-basics/SKILL.md:40: trailing whitespace.
+[32m+[m[41m   [m
+.agents/skills/firebase-auth-basics/references/client_sdk_android.md:51: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-auth-basics/references/client_sdk_android.md:78: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-auth-basics/references/flutter_setup.md:106: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-auth-basics/references/flutter_setup.md:110: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-basics/SKILL.md:62: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-basics/SKILL.md:143: trailing whitespace.
+[32m+[m[41m  [m
+.agents/skills/firebase-basics/references/ios_setup.md:84: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-data-connect/examples.md:77: trailing whitespace.
+[32m+[m[32mquery ListMovies($genre: String, $minRating: Float, $limit: Int)[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:128: trailing whitespace.
+[32m+[m[32mmutation AddReview($movieId: UUID!, $rating: Int!, $text: String)[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:330: trailing whitespace.
+[32m+[m[32mmutation Checkout($shippingAddress: String!)[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:331: trailing whitespace.
+[32m+[m[32m  @auth(level: USER)[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:335: trailing whitespace.
+[32m+[m[32m    cartItems(where: { user: { uid: { eq_expr: "auth.uid" }}})[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:421: trailing whitespace.
+[32m+[m[32mmutation CreatePost($title: String!, $content: String!)[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:422: trailing whitespace.
+[32m+[m[32m  @auth(level: USER)[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:439: trailing whitespace.
+[32m+[m[32mmutation PublishPost($id: UUID!)[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:440: trailing whitespace.
+[32m+[m[32m  @auth(level: USER)[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:454: trailing whitespace.
+[32m+[m[32mmutation GrantRole($userUid: String!, $role: UserRole!)[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:455: trailing whitespace.
+[32m+[m[32m  @auth(level: USER)[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:590: trailing whitespace.
+[32m+[m[32m    sql: "UPDATE account SET balance = balance - $2 WHERE id = $1",[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:594: trailing whitespace.
+[32m+[m[32m    sql: "UPDATE account SET balance = balance + $2 WHERE id = $1",[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:613: trailing whitespace.
+[32m+[m[32m      SELECT[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:614: trailing whitespace.
+[32m+[m[32m        id,[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:618: trailing whitespace.
+[32m+[m[32m          ST_MakePoint((metadata->>'longitude')::float, (metadata->>'latitude')::float)::geography,[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:625: trailing whitespace.
+[32m+[m[32m          ST_MakePoint((metadata->>'longitude')::float, (metadata->>'latitude')::float)::geography,[m[41m [m
+.agents/skills/firebase-data-connect/examples.md:626: trailing whitespace.
+[32m+[m[32m          ST_MakePoint($1, $2)::geography,[m[41m [m
+.agents/skills/firebase-data-connect/reference/native_sql.md:119: trailing whitespace.
+[32m+[m[32m        UPDATE review SET text = $2[m[41m [m
+.agents/skills/firebase-data-connect/reference/native_sql.md:120: trailing whitespace.
+[32m+[m[32m        WHERE movie_id = $1 AND user_id = $3[m[41m [m
+.agents/skills/firebase-data-connect/reference/operations.md:333: trailing whitespace.
+[32m+[m[32mmutation CreateUserWithProfile($name: String!, $bio: String!)[m[41m [m
+.agents/skills/firebase-data-connect/reference/operations.md:334: trailing whitespace.
+[32m+[m[32m  @auth(level: USER)[m[41m [m
+.agents/skills/firebase-data-connect/reference/operations.md:354: trailing whitespace.
+[32m+[m[32mmutation CreateTodoWithItem($listName: String!, $itemText: String!)[m[41m [m
+.agents/skills/firebase-data-connect/reference/operations.md:355: trailing whitespace.
+[32m+[m[32m  @auth(level: USER)[m[41m [m
+.agents/skills/firebase-data-connect/reference/sdk_flutter.md:31: trailing whitespace.
+[32m+[m[32mimport 'generated/movies.dart';[m[41m [m
+.agents/skills/firebase-data-connect/reference/sdk_flutter.md:54: trailing whitespace.
+[32m+[m[32m  title: 'Empire Strikes Back',[m[41m [m
+.agents/skills/firebase-data-connect/reference/sdk_flutter.md:55: trailing whitespace.
+[32m+[m[32m  releaseYear: 1980,[m[41m [m
+.agents/skills/firebase-data-connect/reference/sdk_flutter.md:56: trailing whitespace.
+[32m+[m[32m  genre: 'Sci-Fi'[m[41m [m
+.agents/skills/firebase-data-connect/reference/sdk_ios.md:39: trailing whitespace.
+[32m+[m[32mconnector.useEmulator()[m[41m [m
+.agents/skills/firebase-data-connect/reference/security.md:145: trailing whitespace.
+[32m+[m[32mmutation UpdateMovie($id: UUID!, $title: String!)[m[41m [m
+.agents/skills/firebase-data-connect/reference/security.md:146: trailing whitespace.
+[32m+[m[32m  @auth(level: USER)[m[41m [m
+.agents/skills/firebase-data-connect/reference/security.md:165: trailing whitespace.
+[32m+[m[32m  movie_delete(id: $id)[m[41m [m
+.agents/skills/firebase-firestore/references/enterprise/android_sdk_usage.md:66: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-firestore/references/enterprise/flutter_setup.md:47: trailing whitespace.
+[32m+[m[32m      createdAt: data['createdAt'] is Timestamp[m[41m [m
+.agents/skills/firebase-firestore/references/enterprise/flutter_setup.md:48: trailing whitespace.
+[32m+[m[32m          ? (data['createdAt'] as Timestamp).toDate()[m[41m [m
+.agents/skills/firebase-firestore/references/enterprise/ios_setup.md:92: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-firestore/references/enterprise/ios_setup.md:97: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-firestore/references/enterprise/ios_setup.md:162: trailing whitespace.
+[32m+[m[32m@Observable[m[41m [m
+.agents/skills/firebase-firestore/references/enterprise/ios_setup.md:166: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-firestore/references/enterprise/ios_setup.md:170: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-firestore/references/enterprise/ios_setup.md:178: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-firestore/references/enterprise/ios_setup.md:183: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-firestore/references/standard/android_sdk_usage.md:51: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-firestore/references/standard/android_sdk_usage.md:78: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-firestore/references/standard/flutter_setup.md:47: trailing whitespace.
+[32m+[m[32m      createdAt: data['createdAt'] is Timestamp[m[41m [m
+.agents/skills/firebase-firestore/references/standard/flutter_setup.md:48: trailing whitespace.
+[32m+[m[32m          ? (data['createdAt'] as Timestamp).toDate()[m[41m [m
+.agents/skills/firebase-firestore/references/standard/ios_setup.md:84: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-firestore/references/standard/ios_setup.md:89: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-firestore/references/standard/ios_setup.md:125: trailing whitespace.
+[32m+[m[32m@Observable[m[41m [m
+.agents/skills/firebase-firestore/references/standard/ios_setup.md:129: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-firestore/references/standard/ios_setup.md:133: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/firebase-firestore/references/standard/ios_setup.md:139: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-firestore/references/standard/ios_setup.md:144: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-firestore/references/standard/ios_setup.md:158: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-remote-config-basics/SKILL.md:106: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/firebase-remote-config-basics/references/ios_setup.md:84: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:92: trailing whitespace.
+[32m+[m[41m    [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:110: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:115: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:120: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:125: trailing whitespace.
+[32m+[m[41m            [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:128: trailing whitespace.
+[32m+[m[41m            [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:132: trailing whitespace.
+[32m+[m[41m                [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:141: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:144: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:152: trailing whitespace.
+[32m+[m[32m                repositoryURL: repoURL,[m[41m [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:153: trailing whitespace.
+[32m+[m[32m                productName: products.first!,[m[41m [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:154: trailing whitespace.
+[32m+[m[32m                versionRequirement: .upToNextMajorVersion(versionRequirementString),[m[41m [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:158: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:168: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:175: trailing whitespace.
+[32m+[m[41m            [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:178: trailing whitespace.
+[32m+[m[41m            [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:181: trailing whitespace.
+[32m+[m[41m            [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:184: trailing whitespace.
+[32m+[m[41m            [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:201: trailing whitespace.
+[32m+[m[41m                [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:221: trailing whitespace.
+[32m+[m[41m        [m
+.agents/skills/xcode-project-setup/scripts/xcode_spm_setup/Sources/main.swift:225: trailing whitespace.
+[32m+[m[41m        [m
+WEBSITE_CONTENT_GUIDE.md:279: new blank line at EOF.
+WEBSITE_QA_REPORT.md:3: trailing whitespace.
+[32m+[m[32m**Date of Audit:** November 10, 2026[m[41m  [m
+WEBSITE_QA_REPORT.md:4: trailing whitespace.
+[32m+[m[32m**Auditor:** Senior Full-Stack Developer, UI/UX Designer, SEO Specialist & QA Engineer[m[41m  [m
+WEBSITE_QA_REPORT.md:5: trailing whitespace.
+[32m+[m[32m**Scope:** Complete upgrade of 10LONAZ company website[m[41m  [m
+WEBSITE_QA_REPORT.md:6: trailing whitespace.
+[32m+[m[32m**Environment:** Node.js v18+, Vite 5.4.19, React 18, TypeScript 5.8, Tailwind CSS, Windows OS[m[41m  [m
+WEBSITE_QA_REPORT.md:143: new blank line at EOF.
+index.html:10: trailing whitespace.
+[32m+[m[41m    [m
+index.html:27: trailing whitespace.
+[32m+[m[41m    [m
+public/sitemap.xml:161: new blank line at EOF.
+src/components/AICursor.tsx:125: trailing whitespace.
+[32m+[m[41m        [m
+src/components/CustomCursor.tsx:61: new blank line at EOF.
+src/components/ThemeProvider.tsx:12: trailing whitespace.
+[32m+[m[32mexport function ThemeProvider({[m[41m [m
+src/components/ThemeProvider.tsx:13: trailing whitespace.
+[32m+[m[32m  children,[m[41m [m
+src/components/common/CodeBlock.tsx:150: new blank line at EOF.
+src/components/home/Hero.tsx:26: trailing whitespace.
+[32m+[m[41m  [m
+src/components/home/Hero.tsx:31: trailing whitespace.
+[32m+[m[41m      [m
+src/components/home/Hero.tsx:61: trailing whitespace.
+[32m+[m[32m        <motion.div[m[41m [m
+src/index.css:6: trailing whitespace.
+[32m+[m[32m/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.[m[41m [m
+src/index.css:46: trailing whitespace.
+[32m+[m[41m    [m
+src/index.css:90: trailing whitespace.
+[32m+[m[41m    [m
+src/index.css:190: new blank line at EOF.
+src/lib/translations.ts:27: trailing whitespace.
+[32m+[m[41m    [m
+src/lib/translations.ts:38: trailing whitespace.
+[32m+[m[41m    [m
+src/lib/translations.ts:43: trailing whitespace.
+[32m+[m[41m    [m
+src/lib/translations.ts:49: trailing whitespace.
+[32m+[m[41m    [m
+src/lib/translations.ts:53: trailing whitespace.
+[32m+[m[41m    [m
+src/lib/translations.ts:57: trailing whitespace.
+[32m+[m[41m    [m
+src/lib/translations.ts:62: trailing whitespace.
+[32m+[m[41m    [m
+src/lib/translations.ts:69: trailing whitespace.
+[32m+[m[41m    [m
+src/pages/Careers.tsx:436: new blank line at EOF.
+src/pages/CaseStudy.tsx:64: trailing whitespace.
+[32m+[m[41m              [m
